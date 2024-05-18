@@ -29,6 +29,7 @@ def move_the_snake(direction):
             elif listt[index + step] == '#':
                 clear()
                 print(pyfiglet.figlet_format('You win!'))
+                sleep(10)
                 exit()
 
         # DOWN
@@ -40,6 +41,7 @@ def move_the_snake(direction):
             elif listt[index + step] == '#':
                 clear()
                 print(pyfiglet.figlet_format('You win!'))
+                sleep(10)
                 exit()
 
         # RIGHT
@@ -51,6 +53,7 @@ def move_the_snake(direction):
             elif listt[index + step] == '#':
                 clear()
                 print(pyfiglet.figlet_format('You win!'))
+                sleep(10)
                 exit()
 
         # LEFT
@@ -62,6 +65,7 @@ def move_the_snake(direction):
             elif listt[index + step] == '#':
                 clear()
                 print(pyfiglet.figlet_format('You win!'))
+                sleep(10)
                 exit()
     except ValueError:
         clear()
